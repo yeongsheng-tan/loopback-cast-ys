@@ -24,5 +24,26 @@
     "name": "mysql",
     "user": "root",
     "connector": "mysql"
+  },
+  "local-storage": {
+    "name": "local-storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/local-storage"
+  },
+  "amazonS3": {
+    "provider": "amazon",
+    "name": "amazonS3",
+    "connector": "loopback-component-storage",
+    "key": "aws_secret_access_key",
+    "keyId": "aws_access_key_id"
+
+  },
+  "filestore-mongo": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "lb_db",
+    "provider": "filestore-mongo",
+    "connector": "loopback-component-storage-mongo"
   }
 }

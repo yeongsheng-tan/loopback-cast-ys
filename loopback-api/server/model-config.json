@@ -42,6 +42,11 @@
     "public": false
   },
   "User": {
-    "dataSource": "mongodb"
+      "dataSource": "mongodb",
+      "public": false
+  },
+  "Container": {
+    "dataSource": "filestore-mongo",
+    "public": true
   }
 }
