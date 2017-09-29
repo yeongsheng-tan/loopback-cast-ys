@@ -1,0 +1,11 @@
+{
+  "ids": {
+    "Product": 3
+  },
+  "models": {
+    "Product": {
+      "1": "{\"name\":\"Huawei P10\",\"qty\":25,\"id\":1}",
+      "2": "{\"name\":\"Huawei Mate 10\",\"qty\":50,\"id\":2}"
+    }
+  }
+}
